@@ -6,3 +6,115 @@
     box-sizing: border-box;
 }
 /*RESET*/
+
+
+/*COMMON*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*COMMON*/
+
+
+
+/*HEADER START*/
+
+/*TEST*/
+
+nav {
+    background-color: #f4f9fd;
+}
+
+
+.lang_contact, 
+.search_login {
+    width: 50%;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ 
+.menu li a {
+   text-decoration: none;
+   color: #32495b;
+   font-weight: 300;
+   font-weight: 600;
+   font-size: smaller;
+}
+
+.menu .search_icon {
+    color: #00a4bd;
+}
+
+
+.right_align {
+    text-align: right;
+}
+
+.menu .border_menu {
+    border-right: 1px solid #32495b;
+}
+
+.menu .login_button {
+    border: 1px solid #fe775a;
+    color: #fe775a;
+    font-weight: 500;
+    font-size: x-small;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.menu .button {
+    background-color: #fe775a;
+    color: white;
+    font-size: small;
+    padding: 8px;
+    border-radius: 5px;
+
+
+}
+/*HEADER END*/
+
+
+
+
+
+
+/*MAIN START*/
+/*MAIN END*/
+
+
+
+
+/*FOOTER START*/
+/*FOOTER END*/
+
