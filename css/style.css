@@ -197,6 +197,17 @@ nav {
 
 /*HEADER END*/
 
+/*Divider*/
+
+.divider {
+    background-color: #afebe4;
+    padding: 40px;
+    border-bottom: 4px solid #0c325a;
+    border-top: 4px solid #0c325a;
+}
+
+/*Divider*/
+
 
 
 
