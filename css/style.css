@@ -37,6 +37,11 @@ img {
 .right_align {
     text-align: right;
 }
+
+.txt {
+    font-weight: 500;
+    color: #32495b;
+}
 /*COMMON*/
 
 
@@ -45,10 +50,11 @@ img {
 
 /*Nav START*/
 
-
 nav {
     background-color: #f4f9fd;
 }
+
+/*Nav top START*/
 
 .nav_top {
    border-bottom: 1px solid #32495b;
@@ -66,8 +72,8 @@ nav {
 .menu li {
     display: inline-block;
     padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
  
 .menu li a {
@@ -81,8 +87,6 @@ nav {
 .menu .search_icon {
     color: #00a4bd;
 }
-
-
 
 
 .menu .border_menu {
@@ -106,6 +110,11 @@ nav {
     border-radius: 5px;
 }
 
+/*Nav top End*/
+
+/*Nav bot start*/
+
+
 .nav_bottom {
     background-color: white;
     padding-top: 20px;
@@ -127,6 +136,11 @@ nav {
 .site_search li {
     padding-top: 8px;
 }
+
+.site_search li a {
+    font-weight: 500;
+}
+/*Nav bot End*/
 /*Nav End*/
 
 
