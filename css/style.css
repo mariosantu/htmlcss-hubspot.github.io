@@ -41,7 +41,20 @@ img {
 .txt {
     font-weight: 500;
     color: #32495b;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    line-height: 25px;
 }
+
+.button {
+    background-color: #fe775a;
+    color: white;
+    font-size: small;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
 /*COMMON*/
 
 
@@ -102,13 +115,10 @@ nav {
     border-radius: 5px;
 }
 
-.menu .button {
-    background-color: #fe775a;
+.menu .getfree {
     color: white;
-    font-size: small;
-    padding: 8px;
-    border-radius: 5px;
 }
+
 
 /*Nav top End*/
 
@@ -146,18 +156,42 @@ nav {
 
 .jumbotron {
     position: relative;
+    height: 672px;
+    background-size: cover;
+    background-image: url(../img/jumbotron.png);
   
 }
 
 .teaser {
     position: absolute;
-    top: 77px;
-    right: 437px;
-    width: 47%;
+    top: 100px;
+    width: 35%;
 
+}
+
+.teaser h1 {
+    font-size: xxx-large;
     
 }
 
+/*test
+.teaser p {
+    margin-bottom: 45px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+*/
+.teaser a {
+    font-size: smaller;
+    font-weight: 600;
+    padding: 21px 34px;
+}
+
+.teaser :last-child {
+    font-size: x-small;
+    margin-top: 30px;
+
+}
 
 /*JUmbotron End*/
 
