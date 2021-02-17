@@ -34,18 +34,25 @@ img {
     margin: 0 auto;
 }
 
+.right_align {
+    text-align: right;
+}
 /*COMMON*/
 
 
 
 /*HEADER START*/
 
-/*TEST*/
+/*Nav START*/
+
 
 nav {
     background-color: #f4f9fd;
 }
 
+.nav_top {
+   border-bottom: 1px solid #32495b;
+}
 
 .lang_contact, 
 .search_login {
@@ -76,9 +83,7 @@ nav {
 }
 
 
-.right_align {
-    text-align: right;
-}
+
 
 .menu .border_menu {
     border-right: 1px solid #32495b;
@@ -99,9 +104,32 @@ nav {
     font-size: small;
     padding: 8px;
     border-radius: 5px;
-
-
 }
+
+.nav_bottom {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.logo_nav {
+    width: 12%;
+}
+
+.site_search {
+    width: 88%;
+}
+
+.logo_container > img {
+    height: 27px;
+}
+
+.site_search li {
+    padding-top: 8px;
+}
+/*Nav End*/
+
+
 /*HEADER END*/
 
 
