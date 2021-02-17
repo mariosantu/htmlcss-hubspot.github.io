@@ -118,7 +118,6 @@ nav {
 .nav_bottom {
     background-color: white;
     padding-top: 20px;
-    padding-bottom: 15px;
 }
 
 .logo_nav {
@@ -143,6 +142,24 @@ nav {
 /*Nav bot End*/
 /*Nav End*/
 
+/*JUmbotron start*/
+
+.jumbotron {
+    position: relative;
+  
+}
+
+.teaser {
+    position: absolute;
+    top: 77px;
+    right: 437px;
+    width: 47%;
+
+    
+}
+
+
+/*JUmbotron End*/
 
 /*HEADER END*/
 
