@@ -193,13 +193,6 @@ nav {
     
 }
 
-/*test
-.teaser p {
-    margin-bottom: 45px;
-    margin-top: 20px;
-    line-height: 25px;
-}
-*/
 .teaser a {
     font-size: smaller;
     font-weight: 600;
@@ -577,6 +570,108 @@ nav {
     height: 40px;
 }
 /*Second section end*/
+
+/*third section start*/
+
+.partner_logo_container {
+    padding-top: 70px;
+}
+
+.partner_number {
+    width: 40%;
+    text-align: center;
+    padding: 10px 139px;
+}
+
+.partner_logo {
+    width: 60%;
+}
+
+.partner_number div {
+    font-weight: bold;
+    font-size: xxx-large;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    color: #32495b;
+}
+
+.partner_number span {
+    font-size: small;
+
+}
+
+.one_h {
+    font-weight: bold;
+}
+
+
+.logo_box {
+    width: 25%;
+   
+}
+
+
+.partner_logo_container div {
+    display: inline-block;
+}
+
+.partner_logo_container img {
+    margin-top: 15px;
+}
+
+.atlass {
+    width: auto;
+    height: 20px;
+    margin-right: 15px;
+
+}
+
+.doordash {
+    width: auto;
+    height: 20px;
+    margin-right: 15px;
+
+}
+
+.g2 {
+    width: auto;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.purple {
+    width: auto;
+    height: 40px;
+}
+
+.partner_logo_container .subaru {
+    margin-top: 20px;
+    margin-right: 15px;
+    width: auto;
+    height: 55px;
+}
+
+.wistia {
+    margin-bottom: 22px;
+    margin-right: 48px;
+    width: auto;
+    height: 21px;
+}
+
+.classpass {
+    width: auto;
+    height: 60px;
+    margin-right: 11px;
+}
+
+.vmware {
+    margin-bottom: 16px;
+    width: auto;
+    height: 30px;
+}
+/*third section start*/
+
+
 
 
 
