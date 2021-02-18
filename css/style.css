@@ -61,6 +61,14 @@ img {
     left: 50%;
     transform: translate(-50% , -50%);
 }
+
+.spacing {
+    padding-bottom: 100px;
+}
+
+.bg_color {
+    background-color: #f4f9fd;
+}
 /*COMMON*/
 
 
@@ -223,9 +231,7 @@ nav {
 /*MAIN START*/
 
 /*fisrst section benefit start*/
-.benefit {
-    background-color: #f4f9fd;
-}
+
 
 .benefit_header {
     padding-top: 400px;
@@ -280,10 +286,6 @@ nav {
     left: 169px;
 }
 
-.padding_test {
-    padding-bottom: 100px;
-}
-
 .right_freehub h3 {
     color: #32495b;
     font-size: x-large;
@@ -308,7 +310,26 @@ nav {
 /*benefit first row end*/
 
 
+/*benefit second row start*/
 
+.second_row_container {
+    background-color: coral;
+}
+
+.left_col, .right_col {
+    height: 700px;
+    width: 30%;
+    background-color: cadetblue;
+}
+
+.mid_col {
+    margin-left: 2%;
+    height: 700px;
+    width: 35%;
+    background-color: cadetblue;
+    margin-right: 3%;
+}
+/*benefit second row end*/
 
 
 
