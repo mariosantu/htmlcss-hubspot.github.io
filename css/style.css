@@ -258,9 +258,9 @@ nav {
 /*benefit first row start*/
 
 
-.first_row_container {
-
-    height: 400px;
+.box_awesome {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.25);
     background-color: white;
 }
 
@@ -318,15 +318,19 @@ nav {
 
 .left_col, .right_col {
     padding-top: 20px;
-    height: 700px;
+    padding-bottom: 50px;
     width: 30%;
     background-color: white;
+}
+
+.left_col {
+    padding-bottom: 57px;
 }
 
 .mid_col {
     padding-top: 20px;
     margin-left: 2.5%;
-    height: 700px;
+    padding-bottom: 50px;
     width: 35%;
     background-color: white;
     margin-right: 2.5%;
@@ -448,16 +452,84 @@ nav {
 
 /*mid col*/
 
-
-
-
 /*benefit second row end*/
 
-
-
-
-
 /*fisrst section benefit end*/
+
+
+
+
+/*Second section start*/
+
+.bg_color_gradient {
+    background-color: brown;
+
+    /*Test*/
+    height: 500px;
+}
+
+.results_col_container {
+    padding-top: 90px;
+
+}
+
+.title_results h2 {
+    font-size: xx-large;
+    padding-top: 64px;
+    color: white;
+}
+
+.title_results p {
+    padding-top: 30px;
+    color: white;
+}
+
+
+.results_col_one, .results_col_two,
+.results_col_three, .results_col_four {
+    width: 25%;
+}
+
+.results_col_one {
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.results_col_one img {
+    height: 40px;
+}
+
+.txt_results :first-child {
+    color: white;
+    padding-bottom: 20px;
+    font-size: -webkit-xxx-large;
+    font-weight: 600;
+    padding-top: 17px;
+}
+
+.txt_results :last-child {
+    color: white;
+    font-size: small;
+    padding-bottom: 25px;
+}
+
+.results_col_two {
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.results_col_two img {
+    height: 40px;
+}
+
+
+/*Second section start*/
+
+
+
+
 
 
 
