@@ -69,6 +69,10 @@ img {
 .bg_color {
     background-color: #f4f9fd;
 }
+
+.txt_align {
+    text-align: center;
+}
 /*COMMON*/
 
 
@@ -312,23 +316,141 @@ nav {
 
 /*benefit second row start*/
 
-.second_row_container {
-    background-color: coral;
-}
-
 .left_col, .right_col {
+    padding-top: 20px;
     height: 700px;
     width: 30%;
-    background-color: cadetblue;
+    background-color: white;
 }
 
 .mid_col {
-    margin-left: 2%;
+    padding-top: 20px;
+    margin-left: 2.5%;
     height: 700px;
     width: 35%;
-    background-color: cadetblue;
-    margin-right: 3%;
+    background-color: white;
+    margin-right: 2.5%;
 }
+
+/*left col*/
+
+.left_col img {
+    height: 140px;
+}
+
+.left_col h3 {
+    color: #32495b;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.left_col h4 {
+    color: #32495b;
+    font-weight: 700;
+}
+
+
+
+
+.left_col hr {
+    color: #32495b;
+    margin-left: 92px;
+    margin-right: 95px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+
+.feature_list .menu li {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-left: 69px;
+
+}
+
+.feature_list .menu{
+    padding-top: 35px;
+}
+
+.feature_list i {
+    color: #fe775a;
+    padding-right: 18px;
+}
+
+.col_button {
+    text-align: center;
+    padding-top: 59px;
+}
+
+.col_button a {
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 23px 40px;
+}
+/*left col*/
+
+
+/*right col*/
+
+.right_col img {
+    height: 150px;
+}
+
+.right_col h3 {
+    color: #32495b;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.right_col h4 {
+    color: #32495b;
+    font-weight: 700;
+}
+
+
+
+.right_col hr {
+    color: #32495b;
+    margin-left: 92px;
+    margin-right: 95px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+/*right col*/
+
+/*mid col*/
+
+.mid_col img {
+    height: 150px;
+}
+
+.mid_col h3 {
+    color: #32495b;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.mid_col h4 {
+    color: #32495b;
+    font-weight: 700;
+}
+
+
+
+.mid_col hr {
+    color: #32495b;
+    margin-left: 92px;
+    margin-right: 95px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+/*mid col*/
+
+
+
+
 /*benefit second row end*/
 
 
