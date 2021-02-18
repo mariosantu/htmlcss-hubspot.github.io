@@ -458,6 +458,7 @@ nav {
 
 .results_col_container {
     padding-top: 90px;
+    padding-bottom: 90px;
 
 }
 
@@ -672,6 +673,42 @@ nav {
 /*third section start*/
 
 
+/*fourth section start*/
+
+.teaser_col, .user_img {
+    width: 50%;
+}
+
+.teaser_col, .user_img {
+    padding: 100px 50px;
+}
+
+.teaser_col h1 {
+    font-size: xx-large;
+    color: #32495b;
+
+}
+
+.teaser_col a {
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 23px 40px;
+}
+
+.teaser_col :last-child {
+    font-size: small;
+    margin-top: 45px;
+
+}
+
+.user_img img {
+    height: 370px;
+    width: auto;
+    margin-left: 340px;
+
+}
+    
+/*fourth section end*/
 
 
 
