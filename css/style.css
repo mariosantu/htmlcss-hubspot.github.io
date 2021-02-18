@@ -244,7 +244,80 @@ nav {
     color: #32495b;
 
 }
+
+/*benefit first row start*/
+
+
+.first_row_container {
+
+    height: 400px;
+    background-color: white;
+}
+
+.left_freehub {
+    position: relative;
+    width: 40%;
+    padding-left: 154px;
+    padding-top: 65px;
+}
+
+.right_freehub {
+    width: 60%;
+    padding-top: 63px;
+    padding-right: 10px;
+}
+
+.left_freehub img {
+
+    height: 150px;
+    width: auto;
+}
+
+.left_freehub a {
+    padding: 21px 48px;
+    position: absolute;
+    top: 245px;
+    left: 169px;
+}
+
+.padding_test {
+    padding-bottom: 100px;
+}
+
+.right_freehub h3 {
+    color: #32495b;
+    font-size: x-large;
+}
+
+.right_freehub .txt {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 15px;
+   
+}
+
+.right_freehub i {
+    color: #fe775a;
+    padding-right: 5px;
+}
+
+.right_freehub :nth-child(2) {
+    padding-left: 10px;
+}
+
+/*benefit first row end*/
+
+
+
+
+
+
+
+
 /*fisrst section benefit end*/
+
+
+
 
 
 /*MAIN END*/
