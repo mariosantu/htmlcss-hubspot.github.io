@@ -55,6 +55,12 @@ img {
     text-decoration: none;
 }
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
 /*COMMON*/
 
 
@@ -171,6 +177,7 @@ nav {
 
 .teaser h1 {
     font-size: xxx-large;
+    color: #32495b;
     
 }
 
@@ -214,6 +221,32 @@ nav {
 
 
 /*MAIN START*/
+
+/*fisrst section benefit start*/
+.benefit {
+    background-color: #f4f9fd;
+}
+
+.benefit_header {
+    padding-top: 400px;
+    margin: auto;
+    position: relative;
+    background-color: #f4f9fd;
+}
+
+.benefit_header .centered img {
+    height: 250px;
+    width: auto;
+}
+
+.benefit_txt {
+    text-align: center;
+    color: #32495b;
+
+}
+/*fisrst section benefit end*/
+
+
 /*MAIN END*/
 
 
