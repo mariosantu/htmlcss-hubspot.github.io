@@ -286,8 +286,16 @@ nav {
 .right_freehub h3 {
     color: #32495b;
     font-size: x-large;
+    display: inline-block;
 }
 
+.right_freehub .popular_line {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 55%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
 .right_freehub .txt {
     display: inline-block;
     padding-top: 10px;
@@ -342,9 +350,6 @@ nav {
     color: #32495b;
     font-weight: 700;
 }
-
-
-
 
 .left_col hr {
     color: #32495b;
@@ -760,8 +765,9 @@ footer {
 }
 
 .support_col .logo_footer_list a {
-    font-size: x-large;
-    margin-right: 16px;
+    color: #c9d5e1;
+    font-size: large;
+    margin-right: 23px;
 
 }
 /*footer list section end*/
