@@ -680,7 +680,7 @@ nav {
 }
 
 .teaser_col, .user_img {
-    padding: 100px 50px;
+    padding: 95px 10px;
 }
 
 .teaser_col h5 {
@@ -704,7 +704,7 @@ nav {
 .user_img img {
     height: 370px;
     width: auto;
-    margin-left: 340px;
+    margin-left: 250px;
 
 }
     
@@ -769,6 +769,75 @@ footer {
 
 }
 /*footer list section end*/
+
+
+/*footer lang section start*/
+.lang_list {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.lang_list ul {
+    list-style-type: none;
+}
+
+.lang_list li {
+    display: inline-block;
+}
+
+.lang_list a {
+    color: #bdcad7;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+/*footer lang section end*/
+
+/*footer legal terms section start*/
+
+.terms_container .copyright, .policies {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.terms_container .policies {
+    text-align: right;
+}
+
+.terms_container .logo_copyright img {
+    height: 30px;
+    width: auto;
+}
+
+.logo_copyright .link_copyright {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.policies_list ul {
+    list-style-type: none;
+}
+
+.policies_list li {
+    display: inline-block;
+}
+
+.policies_list a {
+    color: #bdcad7;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 500;
+    padding-left: 30px;
+}
+/*footer legal terms section end*/
+
+
 
 /*FOOTER END*/
 
