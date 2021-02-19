@@ -710,19 +710,65 @@ nav {
     
 /*fourth section end*/
 
-
-
-
-
-
-
-
-
 /*MAIN END*/
 
 
-
-
 /*FOOTER START*/
+
+footer {
+    background-color: #32495b;
+}
+
+/*footer list section start*/
+
+.footer_col {
+    width: 25%;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.footer_list_title {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer_menu {
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.footer_menu a {
+    text-decoration: none;
+    color: #bdcad7;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.support_col .footer_button {
+    background-color: white;
+    color: #32495b;
+    font-size: small;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 55px;
+
+}
+
+.support_col .logo_footer_list ul {
+    list-style-type: none;
+}
+
+.support_col .logo_footer_list li {
+    display: inline-block;
+}
+
+.support_col .logo_footer_list a {
+    font-size: x-large;
+    margin-right: 16px;
+
+}
+/*footer list section end*/
+
 /*FOOTER END*/
 
