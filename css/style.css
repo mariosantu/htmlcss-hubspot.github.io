@@ -1,5 +1,4 @@
 /*RESET*/
-
 * {
     margin: 0;
     padding: 0;
@@ -176,6 +175,7 @@ nav {
     position: relative;
     height: 672px;
     background-size: cover;
+    background-position: 100% 58%;
     background-image: url(../img/jumbotron.png);
   
 }
